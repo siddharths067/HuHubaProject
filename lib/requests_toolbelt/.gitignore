@@ -1,0 +1,5 @@
+/__init__.pyc
+/_compat.pyc
+/exceptions.pyc
+/sessions.pyc
+/streaming_iterator.pyc
