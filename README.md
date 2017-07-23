@@ -26,6 +26,14 @@ I then send the notification to the FCM API.
 
 I guess there is nothing else more to explain.
 
+Works for both foreground and background as per FCM google-services.json norms.
+
 ##Deploying on GAE 
 Just upload it and activate billing for your account.
+
+##Running on local server
+python helloworld.py
+
+that's it 
+runs on localhost port 8081
 
