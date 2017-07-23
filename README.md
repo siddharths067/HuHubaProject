@@ -1,5 +1,5 @@
 # HuHubaProject - siddharths067
-##My Solution to the HuHuba Internship Problem:
+## My Solution to the HuHuba Internship Problem:
 As was stated in the problem statement I used python to handle FCM messaging from the server. I used flask to handle send requests which further were forwarded using the PyFCM library.
 
 I am sorry I couldn't provide you with an uploaded version to Google App Engine , 
@@ -13,7 +13,7 @@ I have removed my firebase Web Server API key to prevent unauthorized usage.
 I have sent the API key to Mr Rohit Prakash, Please replace it in helloworld.py line number 13 	api_key="".
 
 
-##About - helloworld.py
+## About - helloworld.py
 This is a straight forward flask server , 
 As soon as the user enters the server-page , I open the send.html file in my templates folder. 
 A simple form POST allows to send this file back to the server, 
@@ -28,10 +28,10 @@ I guess there is nothing else more to explain.
 
 Works for both foreground and background as per FCM google-services.json norms.
 
-##Deploying on GAE 
+## Deploying on GAE 
 Just upload it and activate billing for your account.
 
-##Running on local server
+## Running on local server
 python helloworld.py
 
 that's it 
