@@ -12,6 +12,7 @@ And I am not allowed Billing on my Debit Card.
 I have removed my firebase Web Server API key to prevent unauthorized usage. 
 I have sent the API key to Mr Rohit Prakash, Please replace it in helloworld.py line number 13 	api_key="".
 
+Now everyone can use this , no need for API Key.
 
 ## About - helloworld.py
 This is a straight forward flask server , 
@@ -20,7 +21,7 @@ A simple form POST allows to send this file back to the server,
 The server now parses and retrieves the POST parameter and uses the underlying FCM-API to authorize itself ,
 
 A General topic named 'all' is subscribed by the client application automatically when it is opened , so every instance
-of the application in Android devices recieve the notification.
+of the application in Android devices recieve the notification (Toast ).
 
 I then send the notification to the FCM API.
 
