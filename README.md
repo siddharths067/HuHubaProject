@@ -29,6 +29,9 @@ I guess there is nothing else more to explain.
 
 Works for both foreground and background as per FCM google-services.json norms.
 
+Read More about Data Messages here - https://firebase.google.com/docs/cloud-messaging/concept-options
+(Its a really boooooorrrriiiiinnnnnngggg Document :/ )
+
 ## Deploying on GAE 
 Just upload it and activate billing for your account.
 
