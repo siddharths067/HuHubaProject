@@ -14,6 +14,11 @@ def send_message():
     push_service = FCMNotification(api_key="AAAAPyvvG34:APA91bEZ0x963WnD7YJvsIIrEst-GndqnYP02nE2Utca5gK3a_XjpCVLe4dmHh_pwHjPbYhxK-kqZvzZhOMTvvOAtxvO2ZPyHnHxBp2uVCeEZvNI4DgdFUpe1Nl-wS_KGWvueOuHL8NI")
     result = push_service.notify_topic_subscribers(topic_name="all",data_message={"body":msg})    
 	#print result
+=======
+    push_service = FCMNotification(api_key="<check email>")
+    result = push_service.notify_topic_subscribers(topic_name="all", message_body=msg,message_title="HuHuba Problem - siddharths067")
+    #print result
+>>>>>>> d324f9050872783e806ae02ea7e557702c09d794
     return msg
         
 
